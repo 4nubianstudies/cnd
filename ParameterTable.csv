@@ -1,0 +1,507 @@
+ID,Name,Concepticon_ID,Part_Of_Speech
+P-0,"mouth, aperture",674,noun
+P-2,"ship, sailor",740,noun
+P-3,to forget,1523,verb
+P-4,to be amazed,,verb
+P-5,to make ready,,verb
+P-7,white,1335,adjective
+P-8,I,1209,pronoun
+P-9,"heart, soul",1223,noun
+P-10,to insult,3204,verb
+P-11,new,1231,adjective
+P-12,"to sit, remain, live",1416,verb
+P-14,"to shine, appear",,verb
+P-15,truth,,noun
+P-16,"to bind, mend",,verb
+P-17,"to strive, gird oneself",,verb
+P-18,quickly,,adverb
+P-19,"water, river",,noun
+P-20,"mouth, lips",,noun
+P-21,to say,,verb
+P-22,interior,,noun
+P-23,"to do, make",,verb
+P-25,friend,,noun
+P-26,wing,,noun
+P-28,"alone, self, only",,adjective
+P-29,father,,noun
+P-30,to catch (with net),,verb
+P-31,to take,,verb
+P-32,to bear,,verb
+P-33,"wave, waterfall",,noun
+P-35,"rain, sky",,noun
+P-36,island,,noun
+P-37,daughter,,noun
+P-38,morrow,,noun
+P-39,to measure,,verb
+P-40,water,,noun
+P-41,sweet,,adjective
+P-42,to bite,,verb
+P-43,to become (inchoative),,verb
+P-44,to be sharp(?),,verb
+P-45,father-in-law,,noun
+P-46,to live,,verb
+P-47,"meat, flesh",,noun
+P-48,"to split, crack",,verb
+P-49,to open,,verb
+P-50,"to cede, forgive",,verb
+P-51,to cause,,verb
+P-52,middle,,noun
+P-53,scent,,noun
+P-54,to smell sweet,,verb
+P-55,servant,,noun
+P-56,reed,,noun
+P-57,red,,adjective
+P-58,"to roll up, away",,verb
+P-59,good,,adjective
+P-60,(maternal) uncle,,noun
+P-61,to be near,,verb
+P-62,thorn,,noun
+P-63,small,,noun
+P-64,to fix,,verb
+P-65,way,,noun
+P-67,"grass, crop",,noun
+P-68,to be silent,,verb
+P-69,six,,numeral
+P-71,shield,,noun
+P-72,"earth, ground, place",,noun
+P-73,to murmur,,verb
+P-74,to perceive with ear or nose,,verb
+P-75,to build,,verb
+P-76,"to shake, move, take a step",,verb
+P-77,"to touch, be next to each other",,verb
+P-78,path,,noun
+P-79,great,,adjective
+P-80,to disappear,,verb
+P-81,threshing floor,,noun
+P-82,"to exist, be present",,verb
+P-83,to be bound,,verb
+P-84,to cover,,verb
+P-85,"green, unripe",,adjective
+P-86,to die,,verb
+P-87,great in quantity,,adjective
+P-89,to fall,,verb
+P-90,five,,numeral
+P-91,ten,,numeral
+P-92,god,,noun
+P-93,now,,adverb
+P-94,salt,,noun
+P-95,"to take, pick up, raise",,verb
+P-96,to pasture,,verb
+P-97,to proclaim,,verb
+P-98,to fear,,verb
+P-99,"to shed, sow",,verb
+P-100,to exchange,,verb
+P-101,we,,pronoun
+P-102,to follow,,verb
+P-103,home town,,noun
+P-104,sun,,noun
+P-105,country,,noun
+P-106,"to be able, overcome",,verb
+P-107,elder brother,,noun
+P-108,younger brother,,noun
+P-109,to know,,verb
+P-110,hand,,noun
+P-112,fire,,noun
+P-113,near,,adjective
+P-114,to tell,,verb
+P-115,to wait,,verb
+P-116,"to bring, lead",,verb
+P-117,"woman, wife",,noun
+P-118,to say,,verb
+P-119,wheat,,noun
+P-120,millet (Pennisetum typhoideum),,noun
+P-121,"to be, exist, live",,verb
+P-122,this,,pronoun
+P-123,mother,,noun
+P-124,daughter of the mother,,noun
+P-125,woman's child,,noun
+P-126,right (hand),,adjective
+P-127,to forget,,verb
+P-128,you (sg.),,pronoun
+P-129,"to sow, plant",,verb
+P-131,forty,,numeral
+P-132,"dust, dry earth",,noun
+P-133,"to beg, ask",,verb
+P-134,"to take, receive",,verb
+P-135,kettle,,noun
+P-136,female sheep,,noun
+P-137,"man, person",,noun
+P-138,to send,,verb
+P-139,scorpion,,noun
+P-141,"sorghum, durra (Sorghum)",,noun
+P-142,"cursed, bad",,adjective
+P-143,to scatter,,verb
+P-144,"to ripen, cook",,verb
+P-145,to carry,,verb
+P-146,to get/be warm,,verb
+P-147,to eat,,verb
+P-148,north(ern),,adjective
+P-149,"to be, become",,verb
+P-150,knife,,noun
+P-151,"to appear, show oneself",,verb
+P-152,"to break, divide",,verb
+P-153,"to grasp, hold",,verb
+P-154,to draw water,,verb
+P-155,"to take away, wipe away",,verb
+P-156,to throw,,verb
+P-157,lamb,,noun
+P-158,to seek,,verb
+P-159,horse,,noun
+P-160,to ascend,,verb
+P-161,"limit, peak, end",,noun
+P-162,four,,numeral
+P-163,heel,,noun
+P-164,cubit,,noun
+P-165,to gather,,verb
+P-166,winter,,noun
+P-167,to touch,,verb
+P-168,to come,,verb
+P-169,church,,noun
+P-170,stone,,noun
+P-171,(piece of) cloth,,noun
+P-173,"lack, deficiency, smallness",,noun
+P-174,to have,,verb
+P-175,"tree, wood",,noun
+P-176,"alone, pure",,adjective
+P-177,seven,,numeral
+P-178,"hill, heap",,noun
+P-179,left (hand),,adjective
+P-180,wound,,noun
+P-181,feast,,noun
+P-182,"shepherd, herder",,noun
+P-185,seed,,noun
+P-186,face,,noun
+P-187,(second) wife,,noun
+P-188,"ankle, elbow",,noun
+P-189,"cavity, hole, well",,noun
+P-190,"mountain, hill",,noun
+P-191,ring,,noun
+P-192,to learn,,verb
+P-193,egg,,noun
+P-194,"to be happy, laugh",,verb
+P-195,"to open, loosen, release",,verb
+P-196,to go up,,verb
+P-197,"lie, falsehood",,noun
+P-198,"every, all",,quantifier
+P-199,that,,pronoun
+P-200,to be unable,,verb
+P-201,good,,adjective
+P-202,to be without,,verb
+P-203,"then, therefore",,adverb
+P-204,east(ern),,adjective
+P-205,eye,,noun
+P-206,"to cut, circumcize",,verb
+P-207,"to walk, run, be hasty",,verb
+P-208,"to get full, fill up",,verb
+P-209,to not be,,verb
+P-210,good,,adjective
+P-211,what?,,pronoun
+P-212,to bear (a child),,verb
+P-213,to fast (not eating),,verb
+P-214,to hate,,verb
+P-215,"artab, measure",,noun
+P-216,"jackal, hyena",,noun
+P-217,dog,,noun
+P-218,to shake?,,verb
+P-219,"horse, donkey",,noun
+P-220,night,,noun
+P-221,breast,,noun
+P-222,"man, husband",,noun
+P-223,to feel pain,,verb
+P-224,"foot, leg",,noun
+P-225,thirst,,noun
+P-226,to call,,verb
+P-227,to be on,,verb
+P-228,to hang (up),,verb
+P-229,to count,,verb
+P-230,to love,,verb
+P-231,male (animal),,noun
+P-232,head,,noun
+P-233,king,,noun
+P-234,south(ern),,adjective
+P-235,"sheep, possession, livestock",,noun
+P-236,"to take out, take off, release",,verb
+P-237,nine,,numeral
+P-238,slave,,noun
+P-239,"to weep, tear",,verb
+P-240,"to call, summon",,verb
+P-241,to jump,,verb
+P-242,"attention, mind",,noun
+P-243,"morning, tomorrow",,noun
+P-244,to row,,verb
+P-245,wadi,,noun
+P-246,dark,,adjective
+P-247,to throw,,verb
+P-248,one,,numeral
+P-249,distant,,adjective
+P-250,to return,,verb
+P-251,second,,numeral
+P-252,to exchange,,verb
+P-253,star,,noun
+P-254,day (of 24h),,noun
+P-255,"ear, leaf",,noun
+P-256,"moon, month",,noun
+P-257,"thought, insight, wisdom",,noun
+P-258,two,,numeral
+P-259,you (pl),,pronoun
+P-260,to press,,verb
+P-261,to bend,,verb
+P-262,"to place, bear (a child)",,verb
+P-263,"to lay, put",,verb
+P-264,to blow,,verb
+P-265,to divide,,verb
+P-266,sword,,noun
+P-267,to transgress,,verb
+P-269,onion,,noun
+P-270,"wide, outside",,adjective
+P-271,to write,,verb
+P-272,power,,noun
+P-273,(my) father,,noun
+P-274,old,,adjective
+P-275,"valley, cultivated depression",,noun
+P-276,"land, plot",,noun
+P-277,dried-up watercourse,,noun
+P-278,to separate,,verb
+P-279,"to cease, end",,verb
+P-280,to rise,,verb
+P-281,"to grow, rise, emerge",,verb
+P-282,"to loosen, free",,verb
+P-283,"date, date palm",,noun
+P-284,"to lie, remain",,verb
+P-285,friend,,noun
+P-286,to awaken,,verb
+P-287,"to shine, flash",,verb
+P-288,"to sprinkle, splash",,verb
+P-289,dung,,noun
+P-290,wide,,adjective
+P-291,"all, every",,quantifier
+P-292,"to pour, to drop",,verb
+P-293,lame,,adjective
+P-294,jar,,noun
+P-295,to speak,,verb
+P-296,to winnow,,verb
+P-297,to take up,,verb
+P-298,"writing, book",,noun
+P-299,to descend,,verb
+P-300,empty,,adjective
+P-301,to come,,verb
+P-302,"girl, daughter",,noun
+P-303,to be covered,,verb
+P-304,quickly,,adverb
+P-305,"to disappear, get lost",,verb
+P-306,"he, she, it",,pronoun
+P-307,to touch,,verb
+P-308,"to bless, praise",,verb
+P-309,to call,,verb
+P-310,name,,noun
+P-311,"to glow, be very hot",,verb
+P-312,"tomb, grave",,noun
+P-314,key,,noun
+P-315,"to sit, stay",,verb
+P-317,deep,,adjective
+P-318,"to gather, assemble",,verb
+P-319,head of cattle,,noun
+P-320,west(ern),,adjective
+P-321,wave,,noun
+P-322,to give (to 2/3sg),,verb
+P-323,to give (to 1sg),,verb
+P-324,to hate,,verb
+P-325,"to cease, depart, forgive",,verb
+P-326,farmer,,noun
+P-327,"child, son",,noun
+P-328,"to strike, beat, hit",,verb
+P-329,belly,,noun
+P-330,to drive away,,verb
+P-331,wind,,noun
+P-332,to curse,,verb
+P-333,three,,numeral
+P-334,to spit,,verb
+P-335,"to plough, furrow",,verb
+P-336,"to swim, bathe",,verb
+P-337,"lance, spear",,noun
+P-338,"door, gate",,noun
+P-341,"money, silver",,noun
+P-343,"affair, matter, thing",,noun
+P-344,to buy/sell,,verb
+P-345,to wash,,verb
+P-346,year,,noun
+P-347,"to remember, think",,verb
+P-348,"to get full, fill",,verb
+P-349,"to strike, play instrument",,verb
+P-350,to go,,verb
+P-351,"to schlaughter, sacrifice",,verb
+P-352,to burn,,verb
+P-353,pregnant,,adjective
+P-354,nephew (son of sister),,noun
+P-355,who?,,pronoun
+P-356,to deny,,verb
+P-357,to see,,verb
+P-358,son,,noun
+P-359,to sleep,,verb
+P-360,"skin, hide",,noun
+P-361,"side, shore",,noun
+P-362,to hold,,verb
+P-363,long,,adjective
+P-364,desert,,noun
+P-365,to drink,,verb
+P-366,cloud,,noun
+P-367,house,,noun
+P-368,old,,adjective
+P-369,to cut,,verb
+P-370,termite,,noun
+P-372,"to go, go along",,verb
+P-373,to swallow,,verb
+P-374,Nubian,,noun
+P-375,"very small, fine",,adjective
+P-376,shade,,noun
+P-377,ear (of grain),,noun
+P-378,to say,,verb
+P-379,ashes,,noun
+P-380,bark (of tree),,noun
+P-381,bat,,noun
+P-382,beard,,noun
+P-383,to belch,,verb
+P-384,big,,adjective
+P-385,bitter,,adjective
+P-386,black,,adjective
+P-387,blind,,adjective
+P-388,body,,noun
+P-389,bone,,noun
+P-390,"bowels, intestines",,noun
+P-391,breast (female),,noun
+P-392,to bury,,verb
+P-393,calf,,noun
+P-394,chameleon,,noun
+P-395,charcoal,,noun
+P-396,to cut off,,verb
+P-397,cold,,adjective
+P-398,evening,,noun
+P-399,excrement,,noun
+P-400,"to fight, wage war",,verb
+P-401,(finger)nail,,noun
+P-402,fish,,noun
+P-403,court,,noun
+P-404,"to get drunk, intoxicated",,verb
+P-405,"hateful, bad",,adjective
+P-406,iron,,noun
+P-407,"to blow, breathe",,verb
+P-408,to inherit,,verb
+P-409,"to roast, grill",,verb
+P-410,loaf,,noun
+P-411,to enter,,verb
+P-412,"to grow, get up",,verb
+P-413,"hair, plumage, wool",,noun
+P-414,hare,,noun
+P-415,"to hear, smell",,verb
+P-416,heavy,,adjective
+P-417,"to hit, slap, strike",,verb
+P-418,kidney,,noun
+P-419,to kill,,verb
+P-420,knee,,noun
+P-422,many,,adjective
+P-423,to marry,,verb
+P-424,milk,,noun
+P-425,"to milk, squeeze",,verb
+P-426,"neck, nape",,noun
+P-427,nose,,noun
+P-428,"butter, fat, oil, abundance",,noun
+P-429,to paint (with color),,verb
+P-430,"to pierce, insert",,verb
+P-431,"rib, side",,noun
+P-432,river,,noun
+P-433,root,,noun
+P-434,rope,,noun
+P-435,"mud, sand",,noun
+P-436,"to scratch, scrape",,verb
+P-437,to sow,,verb
+P-438,to sing,,verb
+P-439,(bad) smell,,noun
+P-440,to sneeze,,verb
+P-441,to snore,,verb
+P-442,spider,,noun
+P-443,to split,,verb
+P-444,to speak,,verb
+P-445,"to stand, stop, remain",,verb
+P-446,to suck,,verb
+P-447,tail,,noun
+P-448,to taste,,verb
+P-450,tongue,,noun
+P-451,tooth,,noun
+P-452,twin,,noun
+P-453,udder,,noun
+P-454,urine,,noun
+P-455,"vein, sinew",,noun
+P-456,vulture,,noun
+P-457,"to go, walk",,verb
+P-458,worm,,noun
+P-459,yesterday,,noun
+P-460,bird,,noun
+P-461,blood,,noun
+P-462,brains,,noun
+P-463,deaf,,adjective
+P-464,to dry,,verb
+P-465,eight,,numeral
+P-466,to grind,,verb
+P-467,fly (insect),,noun
+P-468,she-goat,,noun
+P-469,horn,,noun
+P-470,lake,,noun
+P-471,locust,,noun
+P-472,shoe,,noun
+P-473,snake,,noun
+P-474,summer,,noun
+P-475,trunk (of tree),,noun
+P-477,"to want, love",,verb
+P-478,to gather,,verb
+P-479,hundred,,numeral
+P-480,iron,,noun
+P-481,mother-in-law,,noun
+P-482,paternal uncle,,noun
+P-483,back of body,,noun
+P-484,to steal,,verb
+P-485,horse,,noun
+P-487,"to set fire, burn",,verb
+P-488,"he, she, it; they",,pronoun
+P-489,warm,,adjective
+P-491,"hyena, crocodile",,noun
+P-492,to take,,verb
+P-493,to dance,,verb
+P-494,god-creator,,noun
+P-495,elephant,,noun
+P-496,"fence, enclosure",,noun
+P-497,"to bear (a child), breastfeed?",,verb
+P-498,to be hungry,,verb
+P-499,female,,adjective
+P-500,strong,,adjective
+P-501,strong,,adjective
+P-502,ant,,noun
+P-503,brother,,noun
+P-504,wet,,adjective
+P-505,smoke,,noun
+P-506,grandmother,,noun
+P-507,grass,,noun
+P-508,man (vir),,noun
+P-509,guest,,noun
+P-510,"he, she, it; they",,pronoun
+P-511,to throw toward,,verb
+P-512,to milk,,verb
+P-513,"speech, word",,noun
+P-514,to wash,,verb
+P-515,"clay, mud",,noun
+P-516,lion,,noun
+P-517,leopard,,noun
+P-518,bad,,adjective
+P-519,millet (Sorghum vulgare),,noun
+P-520,navel,,noun
+P-521,eye,,noun
+P-522,to open,,verb
+P-523,to speak,,verb
+P-524,to fear,,verb
+P-525,louse,,noun
+P-526,snake,,noun
+P-527,"mouse, rat",,noun
+P-528,old,,adjective
+P-529,to find,,verb
+P-530,dream,,noun
+P-531,liver,,noun
+P-532,barley,,noun
