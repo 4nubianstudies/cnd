@@ -1,0 +1,2 @@
+# cnd
+Comparative Nubian Dictionary
