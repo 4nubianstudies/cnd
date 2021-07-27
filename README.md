@@ -8,4 +8,4 @@ These are the files to be ingested into the CLLD (https://clld.org/) instance ac
 
 All data contained herein are licensed under a CC BY 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
 
-The Comparative Nubian Dictionary is a project of the Union for Nubian Studies (https://unionfornubianstudies.org/). Data entry by Vincent W.J. van Gerven Oei.
+The Comparative Nubian Dictionary is a project of the Union for Nubian Studies (https://unionfornubianstudies.org/), edited by Vincent W.J. van Gerven Oei.
