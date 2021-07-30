@@ -67,7 +67,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "name": "Lemma_ID"
                     },
                     {
@@ -285,7 +285,7 @@
             "url": "BorrowingTable.csv"
         },
         {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognatesetTable",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
             "dc:extent": 121,
             "tableSchema": {
                 "columns": [
@@ -296,7 +296,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#headword",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "name": "Lemma"
                     },
                     {
@@ -306,11 +306,12 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Semantic Field"
+                        "name": "Semantic_Field"
                     },
                     {
                         "datatype": "string",
-                        "name": "Part of Speech"
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
+                        "name": "Part_Of_Speech"
                     }
                 ],
                 "primaryKey": [
