@@ -174,7 +174,7 @@
                         "name": "ISO639P3code"
                     },
                     {
-                        "datatype": "int",
+                        "datatype": "integer",
                         "name": "Ord"
                     },
                     {
@@ -191,7 +191,7 @@
                         "name": "Parent_ID"
                     },
                     {
-                        "datatype": "int",
+                        "datatype": "integer",
                         "name": "Level"
                     }
                 ],
