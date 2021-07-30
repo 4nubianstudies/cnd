@@ -63,12 +63,12 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "name": "Language_ID"
+                        "name": "Languoid_ID"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "name": "Parameter_ID"
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
+                        "name": "Lemma_ID"
                     },
                     {
                         "datatype": "string",
@@ -78,9 +78,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
-                        "separator": " ",
-                        "name": "Segments"
+                        "name": "Meaning"
                     },
                     {
                         "datatype": "string",
@@ -97,10 +95,10 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Language_ID"
+                            "Languoid_ID"
                         ],
                         "reference": {
-                            "resource": "LanguageTable.csv",
+                            "resource": "LanguoidTable.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -108,10 +106,10 @@
                     },
                     {
                         "columnReference": [
-                            "Parameter_ID"
+                            "Lemma_ID"
                         ],
                         "reference": {
-                            "resource": "ParameterTable.csv",
+                            "resource": "LemmaTable.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -122,7 +120,7 @@
                     "ID"
                 ]
             },
-            "url": "FormTable.csv"
+            "url": "WordTable.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
@@ -174,46 +172,47 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
                         "name": "ISO639P3code"
+                    },
+                    {
+                        "datatype": "int",
+                        "name": "Ord"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Color"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Proto"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "name": "Parent_ID"
+                    },
+                    {
+                        "datatype": "int",
+                        "name": "Level"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Parent_ID"
+                        ],
+                        "reference": {
+                            "resource": "LanguoidTable.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "LanguageTable.csv"
-        },
-        {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 121,
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
-                        "name": "Name"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
-                        "valueUrl": "http://concepticon.clld.org/parameters/{concepticon_id}",
-                        "name": "Concepticon_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
-                        "name": "Part_Of_Speech"
-                    }
-                ],
-                "primaryKey": [
-                    "ID"
-                ]
-            },
-            "url": "ParameterTable.csv"
+            "url": "LanguoidTable.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#BorrowingTable",
@@ -226,13 +225,22 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#targetFormReference",
-                        "name": "Target_Form_ID"
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "name": "Languoid_ID"
                     },
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#sourceFormReference",
-                        "name": "Source_Form_ID"
+                        "name": "Word_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form",
+                        "name": "Word"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Meaning"
                     },
                     {
                         "datatype": "string",
@@ -249,10 +257,10 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Target_Form_ID"
+                            "Languoid_ID"
                         ],
                         "reference": {
-                            "resource": "FormTable.csv",
+                            "resource": "LanguoidTable.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -260,10 +268,10 @@
                     },
                     {
                         "columnReference": [
-                            "Source_Form_ID"
+                            "Word_ID"
                         ],
                         "reference": {
-                            "resource": "FormTable.csv",
+                            "resource": "WordTable.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -288,90 +296,28 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                        "name": "Description"
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#headword",
+                        "name": "Lemma"
+                    },
+                    {
+                        "datatype": "int",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
+                        "name": "Concepticon_ID"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                        "separator": ";",
-                        "name": "Source"
-                    }
-                ],
-                "foreignKeys": [
+                        "name": "Semantic Field"
+                    },
                     {
-                        "columnReference": [
-                            "ID"
-                        ],
-                        "reference": {
-                            "resource": "CognateTable.csv",
-                            "columnReference": [
-                                "Cognateset_ID"
-                            ]
-                        }
+                        "datatype": "string",
+                        "name": "Part of Speech"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "CognatesetTable.csv"
-        },
-        {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 5813,
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
-                        "name": "Form_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
-                        "name": "Cognateset_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Segment_Slice"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#alignment",
-                        "separator": " ",
-                        "name": "Alignment"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                        "separator": ";",
-                        "name": "Source"
-                    }
-                ],
-                "foreignKeys": [
-                    {
-                        "columnReference": [
-                            "Form_ID"
-                        ],
-                        "reference": {
-                            "resource": "FormTable.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    }
-                ],
-                "primaryKey": [
-                    "ID"
-                ]
-            },
-            "url": "CognateTable.csv"
+            "url": "LemmaTable.csv"
         }
     ]
 }
